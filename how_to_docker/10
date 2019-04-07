@@ -1,0 +1,4 @@
+# Creat a volume named hatchery
+docker volume create --name hatchery
+# --name specifies volume name
+# check volume, docker volume ls

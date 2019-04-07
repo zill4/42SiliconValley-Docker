@@ -1,0 +1,17 @@
+# Make sure yoursetup and logged into
+0. whoami
+# install docker
+1. brew install docker
+# install docker-machine for vm env's
+2. brew install docker-machine
+# Check verions
+3. docker version
+3. docker-machine version
+# Creat default vm machine, using virtualbox
+4. docker-machine create --driver virtualbox char
+# if .docker already exists 
+4. rm -rfd .docker
+# test the docker machine
+4. docker-machine ls 
+# setup docker enviornment.
+# Create a personal dir in sgoinfre

@@ -1,0 +1,2 @@
+# Launch the hello-world container and print its message
+docker run hello-world

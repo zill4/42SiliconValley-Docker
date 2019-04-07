@@ -1,0 +1,15 @@
+FROM alpine
+
+MAINTAINER jcrisp <justcrisp@outlook.com>
+
+RUN apk update && \
+    apk upgrade && \
+    apk add emacs
+
+ENTRYPOINT emacs
+
+# BUILD
+# docker build -t ex00
+
+# RUN
+# docker run -rm -ti ex00

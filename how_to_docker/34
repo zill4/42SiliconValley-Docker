@@ -1,0 +1,4 @@
+# Delete the Aiur vm without using rm -rf
+docker-machine rm -y Aiur
+# rm remove a machine
+# y Assumes automatic yet to proceed with remove, without prompting for confirmation.

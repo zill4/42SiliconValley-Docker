@@ -1,0 +1,3 @@
+# Get the hello-world container from Docker Hub.
+docker pull hello-world
+# check with docker image ls

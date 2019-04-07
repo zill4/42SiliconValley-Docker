@@ -1,0 +1,4 @@
+# Get the real-time logs of one of the tasks of the engineering-bay service.
+docker service logs -f $(docker service ps engineering-bay -f "name=engineering-bay.1" -q)
+# The name filter matches on task names
+# docker service ps -f "name=redis.1" redis

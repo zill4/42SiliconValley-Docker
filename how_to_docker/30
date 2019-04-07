@@ -1,0 +1,5 @@
+# Increase the number of copies of the marines service up to twenty.
+docker service scale -d marine=20
+# sale Scale one or multiple relicated services
+# Check Logs
+docker service logs -f $(docker service ps marines -f "name=marines.11" -q)

@@ -1,0 +1,5 @@
+# Define the variables needed by Virtual Machine Char,
+# In the general env of your terminal.
+eval $(docker-machine env Char)
+# Check docker-machine ls output
+# ACTIVE should be a * instaed of -

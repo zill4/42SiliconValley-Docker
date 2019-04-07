@@ -1,0 +1,9 @@
+# From the shell of a debian container, install via the container's package manager,
+# everything you need to compile C source code and push it onto a git repo.
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+# Start the Debian container,
+# docker run -ti --rm debian
+# build-essential contins a list of packages which are essential for building Ubuntu pacakges 
+# including gc compiler, make, and other required tools.

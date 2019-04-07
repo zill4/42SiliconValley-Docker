@@ -1,0 +1,4 @@
+# Get the IP address of Char virtual machine
+docker-machine ip Char
+# gets the ip per machine, this is the local ip.
+# can list -> docker-machine ip vm1 vm2

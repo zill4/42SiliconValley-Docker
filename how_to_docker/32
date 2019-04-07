@@ -1,0 +1,4 @@
+# Force quit and delete all the containers (whatever their status), in one command.
+docker rm -f $(docker ps -a -q)
+# rm remove one or more containers
+# -f force the removal of a running container (uses SIGKILL)

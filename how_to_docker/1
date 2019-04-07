@@ -1,0 +1,4 @@
+# create virtual machine with docker-machine uisng virtualbox
+docker-machine create --driver virtualbox Char
+# Check Result?
+# docker-machine ls

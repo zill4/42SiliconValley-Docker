@@ -1,0 +1,2 @@
+# Display all the currently active containers on the Char vm.
+docker ps

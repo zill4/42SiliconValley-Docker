@@ -1,0 +1,7 @@
+# Launch a shell from an alpine container, make sure that you can interact directly with the container
+# via your terminal, and that the container deletes itself once the shell's execution is done.
+docker run -it --rm alpine /bin/sh
+# -i Interactive keeps STDIN open even if not attached
+# -t Allocate the pseudo-TTY
+# -rm Automatically remove the container when it exits
+# Usually Alpine Linux doesn't contain bash, instead you use /bin/ash, bin/sh, ash, or only sh.

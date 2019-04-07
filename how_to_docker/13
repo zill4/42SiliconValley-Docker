@@ -1,0 +1,2 @@
+# Print the environment variables of the spawing-pool container in one command
+docker inspect -f '{{.Config.Env}}' spawing-pool

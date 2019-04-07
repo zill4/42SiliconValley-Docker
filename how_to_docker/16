@@ -1,0 +1,4 @@
+# Look up the spawning-pool container's logs in realtime without running its shell.
+docker logs -f spawning-pool
+# To view logs of a Docker container in real time...
+# docker logs -f <CONTAINER>
